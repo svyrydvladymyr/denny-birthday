@@ -1,0 +1,93 @@
+
+.img-side-left{
+    width: 40%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    transform: rotateY(180deg);
+}
+
+
+.video-wrap{
+    width: 700px;
+    height: 100%;
+    position: fixed;    
+    bottom: -20px;
+    right: 0px;
+    z-index: 19;
+}
+
+.img-screen{
+    width: 100%;
+    bottom: -20px;
+    position: absolute;
+    right: 10px;
+    transform: rotateY(180deg);
+    z-index: 3;
+} 
+
+.video{
+    width: 64%;
+    height: 270px;
+    border-radius: 19px;
+    position: absolute;
+    bottom: 200px;
+    left: 48px;
+    background: #657f27;
+    transform: rotate(7deg);
+    z-index: 5;
+}
+
+.card{
+    width: 45%;
+    min-width: 300px;
+    outline: 0px solid;
+    position: fixed;
+    display: table;
+    right: 40%;
+    top: 40px;
+    z-index: 99;
+}
+
+.card-left{
+    width: 50%;
+    position: absolute;
+    border: 2px solid #767676;
+    border-radius: 10px 0px 0px 10px;
+    background: #ffffff;
+    transform: skewY(-5deg);
+    overflow: hidden;
+    box-shadow: -2px 5px 25px #747474;
+}
+
+.card-right{
+    width: 50%;
+    position: absolute;
+    right: 0px;
+    border: 2px solid #767676;
+    border-radius: 0px 10px 10px 0px;
+    background: #ffffff;
+    transform: skewY(5deg);
+    overflow: hidden;
+    box-shadow: 2px 5px 25px #747474;
+}
+
+.card-foto-left{
+    width: 100%;
+    z-index: 10;
+    position: relative;
+}
+
+.card-right > img{
+    width: 100%;
+    z-index: 10;
+    position: relative;
+}
+
+.card-foto{
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    margin: 0px 0%;
+    z-index: 1;
+}
