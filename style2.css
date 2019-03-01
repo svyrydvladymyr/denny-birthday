@@ -43,6 +43,23 @@ body{
     width: 100%;
 }
 
+
+
+.blok-year{
+    width: 100%;
+    display: table;
+    position: relative;
+}
+
+.blok-year > img{
+    width: 70%;
+    margin: 5px 27% 5px 3%;
+}
+
+
+
+
+
 .blok-video{
     width: 100%;
     display: table;
@@ -52,16 +69,16 @@ body{
 
 
 .blok-video > img{
-    width: 70%;
-    margin: 5px 5% 5px 25%;
+    width: 75%;
+    margin: 5px 0% 5px 25%;
     transform: rotateY(180deg);
 }
 
 .video2{
-    width: 45%;
+    width: 34.3%;
     border-radius: 5%;
-    bottom: 34%;
-    right: 24.3%;
+    bottom: 37.6%;
+    right: 38.5%;
     position: absolute;
     background: #657f27;
     transform: rotate(7.3deg);
@@ -77,6 +94,7 @@ body{
 .img-vinnipuh{
     outline: 0px solid green;
     width: 50%;
+    margin: 3px 10% 3px 40%;
     position: relative;
     z-index: 6;
 }
