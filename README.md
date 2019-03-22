@@ -1,2 +1,0 @@
-# denny-birthday
-denny-birthday
